@@ -1,4 +1,4 @@
-name: Build .NET Project
+name: Build Vartovy API
 
 on:
   workflow_dispatch:
