@@ -1,0 +1,6 @@
+@Vartovy.Identity_HostAddress = http://localhost:5065
+
+GET {{Vartovy.Identity_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
