@@ -4,9 +4,9 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using Vartovy.API.Auth;
+using Vartovy.Identity.Auth;
 
-namespace Vartovy.API.Controllers
+namespace Vartovy.Identity.Controllers
 {
 	[Route("api/[controller]")]
 	[ApiController]

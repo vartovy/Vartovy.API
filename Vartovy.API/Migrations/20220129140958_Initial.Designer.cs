@@ -2,11 +2,11 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
-using Vartovy.API.Auth;
+using Vartovy.Identity.Auth;
 
 #nullable disable
 
-namespace Vartovy.API.Migrations
+namespace Vartovy.Identity.Migrations
 {
 	[DbContext(typeof(ApplicationDbContext))]
     [Migration("20220129140958_Initial")]

@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace Vartovy.API.Auth
+namespace Vartovy.Identity.Auth
 {
 	public class ApplicationDbContext : IdentityDbContext<IdentityUser>
 	{

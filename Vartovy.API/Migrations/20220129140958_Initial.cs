@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace Vartovy.API.Migrations
+namespace Vartovy.Identity.Migrations
 {
 	public partial class Initial : Migration
 	{

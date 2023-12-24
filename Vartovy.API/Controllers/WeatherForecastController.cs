@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Vartovy.API.Auth;
+using Vartovy.Identity.Auth;
 
-namespace Vartovy.API.Controllers
+namespace Vartovy.Identity.Controllers
 {
 	[Authorize(Roles = UserRoles.Admin)]
 	[ApiController]

@@ -1,4 +1,4 @@
-﻿namespace Vartovy.API.Auth
+﻿namespace Vartovy.Identity.Auth
 {
 	public class Response
 	{

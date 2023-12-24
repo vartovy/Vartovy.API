@@ -1,4 +1,4 @@
-namespace Vartovy.API
+namespace Vartovy.Identity
 {
 	public class WeatherForecast
 	{

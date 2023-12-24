@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Vartovy.API.Auth
+namespace Vartovy.Identity.Auth
 {
 	public class LoginModel
 	{
