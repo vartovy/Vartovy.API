@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Routing;
 using Vartovy.Identity.Auth;
 
 namespace Vartovy.Identity.Controllers
@@ -12,7 +13,7 @@ namespace Vartovy.Identity.Controllers
 		private static readonly string[] Summaries = new[]
 		{
 		"Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-	};
+		};
 
 		private readonly ILogger<WeatherForecastController> _logger;
 
@@ -31,6 +32,14 @@ namespace Vartovy.Identity.Controllers
 				Summary = Summaries[Random.Shared.Next(Summaries.Length)]
 			})
 			.ToArray();
+		}
+
+		[AllowAnonymous]
+		[HttpGet]
+		[Route("Ping")]
+		public string Ping()
+		{
+			return "it works";
 		}
 	}
 }
