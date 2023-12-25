@@ -39,7 +39,7 @@ namespace Vartovy.Identity.Controllers
 		[Route("Ping")]
 		public string Ping()
 		{
-			return "it works";
+			return "it works!";
 		}
 	}
 }
